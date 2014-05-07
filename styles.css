@@ -1,0 +1,165 @@
+#container{
+	width: 630px;
+	height: auto;
+	position: relative;
+}
+
+.delCandBox{
+	width: 600px;
+	height: auto;
+	padding-bottom: 8px;
+	margin-top: 5px;
+	border-bottom: 1px solid silver;
+}
+
+.delCandBox h3{
+	color: #990000;
+	font-family: arial, helvetica;
+	font-weight: bold;
+	margin: 0px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.delCandidate{
+	width: 290px;
+	position: relative;
+	height: 60px;
+	margin-top: 5px;
+	text-align: left;
+	line-height: 0px;
+}
+
+.delCandidate h4{
+	color: black;
+	font-family: arial, helvetica;
+	margin-bottom: 5px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.delCandidate img{
+	float: left;
+	margin-right: 6px;
+	height: 55px;
+	width: 55px;
+	border: 1px solid silver;
+}	
+
+.voteBox{
+	width: 600px;
+	height: 55px;
+	position: relative;
+}
+
+.voteBox h3{
+	color: black;
+	font-family: arial, helvetica;
+	margin: 0px;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	line-height: 22px;
+
+}
+
+.voteBox p{
+	color: black;
+	font-family: arial, helvetica;
+	margin-top: 10px!important;
+	font-size: 12px!important;
+	text-transform: uppercase;
+	line-height: 0px!important;
+}
+
+.nameBox{
+	width: 165px;
+	height: 55px;
+	position: relative;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+}
+
+.nameBox h4{
+	color: black;
+	font-family: arial, helvetica;
+	font-size: 12px;
+	font-weight: normal;
+	margin-top:5px;
+	line-height: 0px!important;
+
+}
+
+.votePctBox{
+	position: relative;
+	width: 60px;
+	height: 40px;
+	bottom: 37px;
+	left: 95px;
+	text-align: center;
+}
+
+.votePctBox p{
+	font-family: arial, helvetica;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.rawVotes{
+	width: 100px;
+	text-align: center;
+	height: 50px;
+	float: left;
+	margin-right: 15px;
+}
+
+
+.pctVotes{
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	float: left;
+	position: relative;
+}
+
+.pctBar{
+	width: 0%;
+	margin-top: 0px;
+	height: 20px;
+	background-color: #666;
+	position: absolute;
+}
+
+.barCont{
+	width: 150px;
+	float: right;
+	background-color: #D8D8D8;
+	margin-top: 21px;
+	height: 20px;
+	position: relative;
+}
+
+.precinctsReporting{
+	width: 200px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.precinctsReporting p{
+	font-family: arial, helvetica;
+	color: #292929;
+	font-size: 9px!important;
+	padding: 0px;
+	margin: 0px;
+}
+
+.winnersCheck{
+	display:none;
+	width: 15px!important;
+	height: 15px!important;
+	border: 0px!important;
+	z-index: 100000;
+	left: 60px;
+	position: absolute;
+}
